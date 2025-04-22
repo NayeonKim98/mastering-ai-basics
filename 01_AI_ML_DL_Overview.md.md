@@ -1,4 +1,4 @@
-# AI, ML, DL의 차이점
+# AI, ML, DL
 
 <br>
 
