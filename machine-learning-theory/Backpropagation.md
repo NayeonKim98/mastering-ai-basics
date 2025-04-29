@@ -54,4 +54,3 @@
         Calculate Gradients(미분)
         Update Weights
 ```
-
