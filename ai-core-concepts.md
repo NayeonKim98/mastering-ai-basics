@@ -233,3 +233,14 @@ print("특잇값 제곱 / n (≈ 고유값):", (S ** 2) / (X.shape[0] - 1))  # �
 | 주성분 | 데이터의 분산이 가장 큰 방향의 벡터 (고유값 기준 정렬된 고유벡터) |
 | PCA | 주성분 방향으로 데이터를 투영해 차원을 줄이는 방법 |
 | SVD | 모든 행렬을 정교하게 분해하는 방법 (직교 벡터 + 스케일 분해) |
+
+# Segmantic segmentation
+
+1. Classification
+- 고양이 사진을 보고 CAT 인지
+2. Classification + Localization
+- 그 CAT 의 직사각형 테두리까지
+3. Object Detection
+- CAT, DOG, DUCK 각각 직사각형 테두리로 인지
+4. Instance Segmentation
+- CAT, DOG, DUCK 각각의 누끼끼
